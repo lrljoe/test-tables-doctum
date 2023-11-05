@@ -27,10 +27,13 @@
                 <select class="form-control" id="version-switcher" name="version">
                                             <option
                             value="../master/index.html"
-                            data-version="master" >main branch</option>
+                            data-version="master" >3.x branch</option>
                                             <option
                             value="../v2-master/index.html"
-                            data-version="v2-master" selected>2.0 branch</option>
+                            data-version="v2-master" selected>2.x branch</option>
+                                            <option
+                            value="../v1/index.html"
+                            data-version="v1" >1.x branch</option>
                                     </select>
             </form>
                 <div class="search-bar hidden" id="search-progress-bar-container">
@@ -76,8 +79,9 @@
                             role="button" aria-haspopup="true" aria-expanded="false">Versions&nbsp;<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                        <li ><a href="../master/index.html" data-version="master">main branch</a></li>
-                        <li class="active"><a href="../v2-master/index.html" data-version="v2-master">2.0 branch</a></li>
+                        <li ><a href="../master/index.html" data-version="master">3.x branch</a></li>
+                        <li class="active"><a href="../v2-master/index.html" data-version="v2-master">2.x branch</a></li>
+                        <li ><a href="../v1/index.html" data-version="v1">1.x branch</a></li>
                         </ul>
                     </li>
                     <li><a href="classes.html">Classes</a></li>

@@ -1,0 +1,3590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Rappasoft\LaravelLivewireTables\Tests\Http\Livewire\PetVeterinariesTable | Rappasoft - Laravel Livewire Tables API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../../../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../css/doctum.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../fonts/doctum-font.css">
+        <script src="../../../../../js/jquery-3.5.1.slim.min.js"></script>
+        <script async defer src="../../../../../doctum.js"></script>
+        <script async defer src="../../../../../js/bootstrap.min.js"></script>
+        <script async defer src="../../../../../js/autocomplete.min.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+    </head>
+
+    <body id="class" data-name="class:Rappasoft_LaravelLivewireTables_Tests_Http_Livewire_PetVeterinariesTable" data-root-path="../../../../../" data-search-index-url="../../../../../doctum-search.json">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                    <form action="#">
+                <select class="form-control" id="version-switcher" name="version">
+                                            <option
+                            value="../../../../../../master/index.html"
+                            data-version="master" >3.x branch</option>
+                                            <option
+                            value="../../../../../../v2-master/index.html"
+                            data-version="v2-master" >2.x branch</option>
+                                            <option
+                            value="../../../../../../v1/index.html"
+                            data-version="v1" selected>1.x branch</option>
+                                    </select>
+            </form>
+                <div class="search-bar hidden" id="search-progress-bar-container">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" id="search-progress-bar"
+                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+            </div>
+        </div>
+        <form id="search-form" action="../../../../../search.html">
+            <span class="icon icon-search"></span>
+            <input name="search"
+                   id="doctum-search-auto-complete"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search"
+                   spellcheck="false"
+                   autocorrect="off"
+                   autocomplete="off"
+                   autocapitalize="off">
+            <div class="auto-complete-results" id="auto-complete-results"></div>
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../../../../index.html">Rappasoft - Laravel Livewire Tables API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                                        <li role="presentation" class="dropdown visible-xs-block visible-sm-block">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false">Versions&nbsp;<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li ><a href="../../../../../../master/index.html" data-version="master">3.x branch</a></li>
+                        <li ><a href="../../../../../../v2-master/index.html" data-version="v2-master">2.x branch</a></li>
+                        <li class="active"><a href="../../../../../../v1/index.html" data-version="v1">1.x branch</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../../../../../classes.html">Classes</a></li>
+                    <li><a href="../../../../../namespaces.html">Namespaces</a></li>
+                    <li><a href="../../../../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../../../../traits.html">Traits</a></li>
+                    <li><a href="../../../../../doc-index.html">Index</a></li>
+                    <li><a href="../../../../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../../../../Rappasoft.html">Rappasoft</a></li><li class="backslash">\</li><li><a href="../../../../../Rappasoft/LaravelLivewireTables.html">LaravelLivewireTables</a></li><li class="backslash">\</li><li><a href="../../../../../Rappasoft/LaravelLivewireTables/Tests.html">Tests</a></li><li class="backslash">\</li><li><a href="../../../../../Rappasoft/LaravelLivewireTables/Tests/Http.html">Http</a></li><li class="backslash">\</li><li><a href="../../../../../Rappasoft/LaravelLivewireTables/Tests/Http/Livewire.html">Livewire</a></li><li class="backslash">\</li><li>PetVeterinariesTable</li>
+            </ol>
+        </div>
+                <div id="page-content">
+    <div class="page-header">
+        <h1>PetVeterinariesTable    
+            </h1>
+    </div>
+
+    
+    <p>        class
+    <strong>PetVeterinariesTable</strong>        extends <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html"><abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a>
+</p>
+
+        
+    
+        
+
+            
+                <h2>Traits</h2>
+
+        
+    <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/ComponentHelpers.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\ComponentHelpers">ComponentHelpers</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait ComponentHelpers.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithBulkActions.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithColumnSelect.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithCustomPagination.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithCustomPagination">WithCustomPagination</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithCustomPagination.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithFilters.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFooter.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFooter">WithFooter</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithFooter.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithHeader.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithHeader">WithHeader</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithHeader.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithPerPagePagination.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithReordering.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithSearch.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html"><abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a>    </div>
+                <div class="col-md-6"><p>Trait WithSorting.</p></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-6">
+                    <abbr title="Livewire\WithPagination">WithPagination</abbr>    </div>
+                <div class="col-md-6"></div>
+            </div>
+            </div>
+    
+    
+            <h2>Properties</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td class="type" id="property_bulkActionsEnabled">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$bulkActionsEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_bulkActionsEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_primaryKey">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$primaryKey</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_primaryKey">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_selectPage">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$selectPage</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_selectPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_selectAll">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$selectAll</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_selectAll">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_selected">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$selected</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_selected">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_hideBulkActionsOnEmpty">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$hideBulkActionsOnEmpty</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#property_hideBulkActionsOnEmpty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_columnSelect">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$columnSelect</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#property_columnSelect">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_columnSelectEnabled">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$columnSelectEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#property_columnSelectEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_usesSelect">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$usesSelect</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#property_usesSelect">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_rememberColumnSelection">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$rememberColumnSelection</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#property_rememberColumnSelection">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_filtersEnabled">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$filtersEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_filtersEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_filters">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$filters</td>
+                <td class="last"><p>Filter values</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_filters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_filterNames">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$filterNames</td>
+                <td class="last"><p>Map filter names</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_filterNames">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showFilters">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showFilters</td>
+                <td class="last"><p>Show the filter pills</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_showFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showFilterDropdown">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showFilterDropdown</td>
+                <td class="last"><p>Show the filter dropdown</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_showFilterDropdown">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_baseFilters">
+                                                                                array|null[]
+                                                                                
+                                    </td>
+                <td>$baseFilters</td>
+                <td class="last"><p>Default filters</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#property_baseFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_useHeaderAsFooter">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$useHeaderAsFooter</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFooter.html#property_useHeaderAsFooter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFooter">WithFooter</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_customFooter">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$customFooter</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFooter.html#property_customFooter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFooter">WithFooter</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_secondaryHeader">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$secondaryHeader</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithHeader.html#property_secondaryHeader">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithHeader">WithHeader</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_paginationEnabled">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$paginationEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_paginationEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showPerPage">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showPerPage</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_showPerPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showPagination">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showPagination</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_showPagination">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_perPage">
+                                                                                int
+                                                                                
+                                    </td>
+                <td>$perPage</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_perPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_perPageAccepted">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$perPageAccepted</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_perPageAccepted">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_perPageAll">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$perPageAll</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#property_perPageAll">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_reorderEnabled">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$reorderEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#property_reorderEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_reordering">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$reordering</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#property_reordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_reorderingMethod">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$reorderingMethod</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#property_reorderingMethod">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showSearch">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showSearch</td>
+                <td class="last"><p>Show the search field.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#property_showSearch">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_searchFilterDebounce">
+                                                                                int|null
+                                                                                
+                                    </td>
+                <td>$searchFilterDebounce</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#property_searchFilterDebounce">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_searchFilterDefer">
+                                                                                bool|null
+                                                                                
+                                    </td>
+                <td>$searchFilterDefer</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#property_searchFilterDefer">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_searchFilterLazy">
+                                                                                bool|null
+                                                                                
+                                    </td>
+                <td>$searchFilterLazy</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#property_searchFilterLazy">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_sortingEnabled">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$sortingEnabled</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_sortingEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_showSorting">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$showSorting</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_showSorting">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_singleColumnSorting">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$singleColumnSorting</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_singleColumnSorting">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_sorts">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$sorts</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_sorts">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_sortNames">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$sortNames</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_sortNames">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_sortDirectionNames">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$sortDirectionNames</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_sortDirectionNames">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_defaultSortColumn">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$defaultSortColumn</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_defaultSortColumn">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_defaultSortDirection">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$defaultSortDirection</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#property_defaultSortDirection">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_dumpFilters">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$dumpFilters</td>
+                <td class="last"><p>Dump the filters array for debugging at the top of the datatable</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_dumpFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_paginationTheme">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$paginationTheme</td>
+                <td class="last"><p>The default pagination theme.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_paginationTheme">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_refresh">
+                                                                                bool|string
+                                                                                
+                                    </td>
+                <td>$refresh</td>
+                <td class="last"><p>Whether or not to refresh the table at a certain interval
+false is off
+If it's an integer it will be treated as milliseconds (2000 = refresh every 2 seconds)
+If it's a string it will call that function every 5 seconds unless it is 'keep-alive' or 'visible'.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_refresh">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_offlineIndicator">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$offlineIndicator</td>
+                <td class="last"><p>Whether or not to display an offline message when there is no connection.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_offlineIndicator">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_emptyMessage">
+                                                                                string
+                                                                                
+                                    </td>
+                <td>$emptyMessage</td>
+                <td class="last"><p>The message to show when there are no results from a search or query</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_emptyMessage">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_responsive">
+                                                                                bool
+                                                                                
+                                    </td>
+                <td>$responsive</td>
+                <td class="last"><p>Whether or not to display a responsive table</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_responsive">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_tableName">
+                                        protected                                        string
+                                                                                
+                                    </td>
+                <td>$tableName</td>
+                <td class="last"><p>Unique name to use for this table if you want the 'per page' options to be remembered on a per table basis.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_tableName">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_pageName">
+                                        protected                                        string
+                                                                                
+                                    </td>
+                <td>$pageName</td>
+                <td class="last"><p>Name of the page parameter for pagination
+Good to change the default if you have more than one datatable on a page.</p></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_pageName">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_queryString">
+                                        protected                                        null[][]
+                                                                                
+                                    </td>
+                <td>$queryString</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_queryString">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_listeners">
+                                        protected                                        string[]
+                                                                                
+                                    </td>
+                <td>$listeners</td>
+                <td class="last"></td>
+                <td><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#property_listeners">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_pet">
+                                                                                <a href="../../../../../Rappasoft/LaravelLivewireTables/Tests/Models/Pet.html"><abbr title="Rappasoft\LaravelLivewireTables\Tests\Models\Pet">Pet</abbr></a>
+                                                                                
+                                    </td>
+                <td>$pet</td>
+                <td class="last"></td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_bulkActions">
+                                                                                array
+                                                                                
+                                    </td>
+                <td>$bulkActions</td>
+                <td class="last"></td>
+                <td></td>
+            </tr>
+            </table>
+
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getColumn">getColumn</a>(string $column)
+        
+                                            <p><p>Get a column object by its field</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/ComponentHelpers.html#method_getColumn">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\ComponentHelpers">ComponentHelpers</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_parseField">parseField</a>(string $field)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/ComponentHelpers.html#method_parseField">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\ComponentHelpers">ComponentHelpers</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_renderingWithBulkActions">renderingWithBulkActions</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_renderingWithBulkActions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_updatedSelected">updatedSelected</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_updatedSelected">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_updatedSelectPage">updatedSelectPage</a>($value)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_updatedSelectPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_selectPageRows">selectPageRows</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectPageRows">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_selectAll">selectAll</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectAll">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_resetBulk">resetBulk</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_resetBulk">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_selectedRowsQuery">selectedRowsQuery</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectedRowsQuery">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getSelectedRowsQueryProperty">getSelectedRowsQueryProperty</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getSelectedRowsQueryProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_selectedKeys">selectedKeys</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectedKeys">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getSelectedKeysProperty">getSelectedKeysProperty</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getSelectedKeysProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getBulkActionsProperty">getBulkActionsProperty</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getBulkActionsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_bulkActions">bulkActions</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_bulkActions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getShowBulkActionsDropdownProperty">getShowBulkActionsDropdownProperty</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getShowBulkActionsDropdownProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithColumnSelect">mountWithColumnSelect</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_mountWithColumnSelect">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_updatedColumnSelectEnabled">updatedColumnSelectEnabled</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_updatedColumnSelectEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_isColumnSelectEnabled">isColumnSelectEnabled</a>($column)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_isColumnSelectEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_pageName">pageName</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithCustomPagination.html#method_pageName">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithCustomPagination">WithCustomPagination</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithFilters">mountWithFilters</a>()
+        
+                                            <p><p>Prebuild the $filters array</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_mountWithFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_resetFilters">resetFilters</a>()
+        
+                                            <p><p>Reset the filters array but keep the value for search</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_resetFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_updatedFilters">updatedFilters</a>()
+        
+                                            <p><p>Runs when any filter is changed</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_updatedFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_filters">filters</a>()
+        
+                                            <p><p>Define the filters array</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_filters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_checkFilters">checkFilters</a>()
+        
+                                            <p><p>Removes any filters that are empty</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_checkFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_cleanFilters">cleanFilters</a>()
+        
+                                            <p><p>Cleans $filter property of any values that don't exist
+in the filter() definition.</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_cleanFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_selectAllFilters">selectAllFilters</a>($filterKey)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_selectAllFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|null
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_filtersView">filtersView</a>()
+        
+                                            <p><p>Define the string location to a view to be included as the filters view</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_filtersView">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_hasFilter">hasFilter</a>(string $filter)
+        
+                                            <p><p>Check if a filter exists and isn't null</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_hasFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    int|string|null
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getFilter">getFilter</a>(string $filter)
+        
+                                            <p><p>Get the value of a given filter</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getFilters">getFilters</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getFiltersWithoutSearch">getFiltersWithoutSearch</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFiltersWithoutSearch">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_removeFilter">removeFilter</a>($filter)
+        
+                                            <p><p>Set a given filter to null</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_removeFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getFilterOptions">getFilterOptions</a>(string $filter)
+        
+                                            <p><p>Get the options for a given filter if they exist</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilterOptions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_hasIntegerKeys">hasIntegerKeys</a>(string $filter)
+        
+                                            <p><p>Check whether the filter has numeric keys or not</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_hasIntegerKeys">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getSearchableColumns">getSearchableColumns</a>()
+        
+                                            <p><p>Collects columns with $searchable = true</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getSearchableColumns">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_applySearchFilter">applySearchFilter</a>(<abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr> $query)
+        
+                                            <p><p>Apply Search Filter</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_applySearchFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithFooter">mountWithFooter</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFooter.html#method_mountWithFooter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFooter">WithFooter</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithHeader">mountWithHeader</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithHeader.html#method_mountWithHeader">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithHeader">WithHeader</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithPerPagePagination">mountWithPerPagePagination</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_mountWithPerPagePagination">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_updatedPerPage">updatedPerPage</a>($value)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_updatedPerPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_applyPagination">applyPagination</a>($query)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_applyPagination">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_mountWithReordering">mountWithReordering</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_mountWithReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_enableReordering">enableReordering</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_enableReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_disableReordering">disableReordering</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_disableReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_resetSearch">resetSearch</a>()
+        
+                                            <p><p>Clear the search filter specifically</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#method_resetSearch">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getSearchFilterOptionsProperty">getSearchFilterOptionsProperty</a>()
+        
+                                            <p><p>Build Livewire model options for the search input</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#method_getSearchFilterOptionsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|null
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_sortBy">sortBy</a>(string $field)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_sortBy">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_applySorting">applySorting</a>(<abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr> $query)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_applySorting">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_removeSort">removeSort</a>(string $field)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_removeSort">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_resetSorts">resetSorts</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_resetSorts">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_columns">columns</a>()
+        
+                                            <p><p>The array defining the columns of the table.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_query">query</a>()
+        
+                                            <p><p>The base query with search and filters for the table.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8">
+                    <a href="#method___construct">__construct</a>(null $id = null)
+        
+                                            <p><p>TableComponent constructor.</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method___construct">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_rowsQuery">rowsQuery</a>()
+        
+                                            <p><p>Get the rows query builder with sorting applied.</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_rowsQuery">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>[]|<abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>|mixed
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_getRowsProperty">getRowsProperty</a>()
+        
+                                            <p><p>Get the rows paginated collection that will be returned to the view.</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_getRowsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_resetAll">resetAll</a>()
+        
+                                            <p><p>Reset all the criteria</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_resetAll">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_rowView">rowView</a>()
+        
+                                            <p><p>The view to render each row of the table.</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_rowView">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_modalsView">modalsView</a>()
+        
+                                            <p><p>The view to add any modals for the table, could also be used for any non-visible html</p></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_modalsView">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_render">render</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_render">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    int
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_count">count</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_getColumn">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/ComponentHelpers.html#method_getColumn">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\ComponentHelpers">ComponentHelpers</abbr></a> at line 19</div>
+        <code>            protected        mixed
+    <strong>getColumn</strong>(string $column)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get a column object by its field</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$column</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_parseField">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/ComponentHelpers.html#method_parseField">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\ComponentHelpers">ComponentHelpers</abbr></a> at line 31</div>
+        <code>            protected        string
+    <strong>parseField</strong>(string $field)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$field</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_renderingWithBulkActions">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_renderingWithBulkActions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 20</div>
+        <code>                    void
+    <strong>renderingWithBulkActions</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatedSelected">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_updatedSelected">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 31</div>
+        <code>                    void
+    <strong>updatedSelected</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatedSelectPage">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_updatedSelectPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 37</div>
+        <code>                    void
+    <strong>updatedSelectPage</strong>($value)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$value</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_selectPageRows">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectPageRows">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 49</div>
+        <code>                    void
+    <strong>selectPageRows</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_selectAll">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectAll">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 54</div>
+        <code>                    void
+    <strong>selectAll</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetBulk">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_resetBulk">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 59</div>
+        <code>                    void
+    <strong>resetBulk</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_selectedRowsQuery">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectedRowsQuery">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 69</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>selectedRowsQuery</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSelectedRowsQueryProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getSelectedRowsQueryProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 81</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>getSelectedRowsQueryProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_selectedKeys">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_selectedKeys">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 86</div>
+        <code>                    array
+    <strong>selectedKeys</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSelectedKeysProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getSelectedKeysProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 91</div>
+        <code>                    array
+    <strong>getSelectedKeysProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getBulkActionsProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getBulkActionsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 96</div>
+        <code>                    array
+    <strong>getBulkActionsProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_bulkActions">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_bulkActions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 101</div>
+        <code>                    array
+    <strong>bulkActions</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getShowBulkActionsDropdownProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithBulkActions.html#method_getShowBulkActionsDropdownProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithBulkActions">WithBulkActions</abbr></a> at line 110</div>
+        <code>                    bool
+    <strong>getShowBulkActionsDropdownProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithColumnSelect">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_mountWithColumnSelect">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a> at line 17</div>
+        <code>                    void
+    <strong>mountWithColumnSelect</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatedColumnSelectEnabled">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_updatedColumnSelectEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a> at line 58</div>
+        <code>                    void
+    <strong>updatedColumnSelectEnabled</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_isColumnSelectEnabled">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithColumnSelect.html#method_isColumnSelectEnabled">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithColumnSelect">WithColumnSelect</abbr></a> at line 63</div>
+        <code>                    bool
+    <strong>isColumnSelectEnabled</strong>($column)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$column</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_pageName">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithCustomPagination.html#method_pageName">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithCustomPagination">WithCustomPagination</abbr></a> at line 14</div>
+        <code>                    string
+    <strong>pageName</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_mountWithFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 64</div>
+        <code>                    void
+    <strong>mountWithFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Prebuild the $filters array</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_resetFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 76</div>
+        <code>                    void
+    <strong>resetFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Reset the filters array but keep the value for search</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatedFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_updatedFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 90</div>
+        <code>                    void
+    <strong>updatedFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Runs when any filter is changed</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_filters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_filters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 109</div>
+        <code>                    array
+    <strong>filters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Define the filters array</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_checkFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_checkFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 117</div>
+        <code>                    void
+    <strong>checkFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Removes any filters that are empty</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_cleanFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_cleanFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 139</div>
+        <code>                    void
+    <strong>cleanFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Cleans $filter property of any values that don't exist
+in the filter() definition.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_selectAllFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_selectAllFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 208</div>
+        <code>                    void
+    <strong>selectAllFilters</strong>($filterKey)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$filterKey</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_filtersView">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_filtersView">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 230</div>
+        <code>                    string|null
+    <strong>filtersView</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Define the string location to a view to be included as the filters view</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_hasFilter">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_hasFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 242</div>
+        <code>                    bool
+    <strong>hasFilter</strong>(string $filter)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Check if a filter exists and isn't null</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$filter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFilter">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 254</div>
+        <code>                    int|string|null
+    <strong>getFilter</strong>(string $filter)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the value of a given filter</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$filter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>int|string|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFilters">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilters">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 274</div>
+        <code>                    array
+    <strong>getFilters</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFiltersWithoutSearch">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFiltersWithoutSearch">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 284</div>
+        <code>                    array
+    <strong>getFiltersWithoutSearch</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_removeFilter">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_removeFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 296</div>
+        <code>                    void
+    <strong>removeFilter</strong>($filter)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Set a given filter to null</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$filter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFilterOptions">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getFilterOptions">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 324</div>
+        <code>                    array
+    <strong>getFilterOptions</strong>(string $filter)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the options for a given filter if they exist</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$filter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_hasIntegerKeys">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_hasIntegerKeys">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 340</div>
+        <code>                    bool
+    <strong>hasIntegerKeys</strong>(string $filter)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Check whether the filter has numeric keys or not</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$filter</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSearchableColumns">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_getSearchableColumns">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 350</div>
+        <code>                    array
+    <strong>getSearchableColumns</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Collects columns with $searchable = true</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_applySearchFilter">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFilters.html#method_applySearchFilter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFilters">WithFilters</abbr></a> at line 361</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>applySearchFilter</strong>(<abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr> $query)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Apply Search Filter</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+                <td>$query</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithFooter">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithFooter.html#method_mountWithFooter">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithFooter">WithFooter</abbr></a> at line 13</div>
+        <code>                    void
+    <strong>mountWithFooter</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithHeader">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithHeader.html#method_mountWithHeader">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithHeader">WithHeader</abbr></a> at line 12</div>
+        <code>                    void
+    <strong>mountWithHeader</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithPerPagePagination">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_mountWithPerPagePagination">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a> at line 17</div>
+        <code>                    void
+    <strong>mountWithPerPagePagination</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updatedPerPage">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_updatedPerPage">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a> at line 30</div>
+        <code>                    void
+    <strong>updatedPerPage</strong>($value)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$value</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_applyPagination">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithPerPagePagination.html#method_applyPagination">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithPerPagePagination">WithPerPagePagination</abbr></a> at line 45</div>
+        <code>                    
+    <strong>applyPagination</strong>($query)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$query</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_mountWithReordering">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_mountWithReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a> at line 14</div>
+        <code>                    void
+    <strong>mountWithReordering</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_enableReordering">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_enableReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a> at line 21</div>
+        <code>                    void
+    <strong>enableReordering</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_disableReordering">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithReordering.html#method_disableReordering">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithReordering">WithReordering</abbr></a> at line 27</div>
+        <code>                    void
+    <strong>disableReordering</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetSearch">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#method_resetSearch">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a> at line 35</div>
+        <code>                    void
+    <strong>resetSearch</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Clear the search filter specifically</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSearchFilterOptionsProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSearch.html#method_getSearchFilterOptionsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSearch">WithSearch</abbr></a> at line 45</div>
+        <code>                    string
+    <strong>getSearchFilterOptionsProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Build Livewire model options for the search input</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_sortBy">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_sortBy">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a> at line 22</div>
+        <code>                    string|null
+    <strong>sortBy</strong>(string $field)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$field</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_applySorting">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_applySorting">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a> at line 50</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>applySorting</strong>(<abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr> $query)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+                <td>$query</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_removeSort">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_removeSort">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a> at line 77</div>
+        <code>                    void
+    <strong>removeSort</strong>(string $field)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$field</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetSorts">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/Traits/WithSorting.html#method_resetSorts">
+<abbr title="Rappasoft\LaravelLivewireTables\Traits\WithSorting">WithSorting</abbr></a> at line 84</div>
+        <code>                    void
+    <strong>resetSorts</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_columns">
+        <div class="location">at line 25</div>
+        <code>                    array
+    <strong>columns</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>The array defining the columns of the table.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_query">
+        <div class="location">at line 20</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>query</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>The base query with search and filters for the table.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method___construct">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 134</div>
+        <code>                    
+    <strong>__construct</strong>(null $id = null)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>TableComponent constructor.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>null</td>
+                <td>$id</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_rowsQuery">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_rowsQuery">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 152</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr>
+    <strong>rowsQuery</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the rows query builder with sorting applied.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>|<abbr title="Illuminate\Database\Eloquent\Relations\Relation">Relation</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRowsProperty">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_getRowsProperty">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 174</div>
+        <code>                    <abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>[]|<abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>|mixed
+    <strong>getRowsProperty</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Get the rows paginated collection that will be returned to the view.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Illuminate\Database\Eloquent\Builder">Builder</abbr>[]|<abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>|mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetAll">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_resetAll">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 186</div>
+        <code>                    void
+    <strong>resetAll</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Reset all the criteria</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_rowView">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_rowView">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 200</div>
+        <code>                    string
+    <strong>rowView</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>The view to render each row of the table.</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_modalsView">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_modalsView">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 210</div>
+        <code>                    string
+    <strong>modalsView</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>The view to add any modals for the table, could also be used for any non-visible html</p></p>                        
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_render">
+        <div class="location">in <a href="../../../../../Rappasoft/LaravelLivewireTables/DataTableComponent.html#method_render">
+<abbr title="Rappasoft\LaravelLivewireTables\DataTableComponent">DataTableComponent</abbr></a> at line 218</div>
+        <code>                    mixed
+    <strong>render</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_count">
+        <div class="location">at line 37</div>
+        <code>                    int
+    <strong>count</strong>()
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p class="no-description">No description</p>
+                    
+        </div>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>int</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+</div><div id="footer">
+        Generated by <a href="https://github.com/code-lts/doctum">Doctum, a API Documentation generator and fork of Sami</a>.</div></div>
+    </div>
+    </body>
+
+</html>
